@@ -226,7 +226,7 @@ def spam_loop(accounts, groups):
     if n == 0:
         return
 
-    delay = 40 / n
+    delay = 35 / n
     idx = 0
 
     while True:
@@ -258,7 +258,7 @@ def nc_loop(accounts, groups):
     if n == 0:
         return
 
-    delay = 200 / n
+    delay = 180 / n
     acc_idx = 0
     title_idx = 0
     t_len = len(titles)
